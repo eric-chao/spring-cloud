@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-eureka-client
+
+server:
+  port: 2021
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:2020/eureka/
